@@ -16,12 +16,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/candyBg.jpg */ "./src/assets/candyBg.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 70px;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n  gap: 25px;\n  width: 100vw;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 100px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  width: max(70%, 800px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #f1bdcf;\n  height: 100%;\n  padding: 30px;\n  color: #7c508a;\n  font-weight: bold;\n}\n\n.selected {\n  height: 46px !important;\n  font-size: 22px !important;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,yBAAyB;EACzB,aAAa;EACb,uBAAuB;EACvB,qBAAqB;EACrB,SAAS;EACT,YAAY;AACd;;AAEA;EACE,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,aAAa;EACb,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,cAAc;EACd,iBAAiB;AACnB;;AAEA;EACE,uBAAuB;EACvB,0BAA0B;AAC5B","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 70px;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: center;\n  align-items: flex-end;\n  gap: 25px;\n  width: 100vw;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 100px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  width: max(70%, 800px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #f1bdcf;\n  height: 100%;\n  padding: 30px;\n  color: #7c508a;\n  font-weight: bold;\n}\n\n.selected {\n  height: 46px !important;\n  font-size: 22px !important;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin-top: 3em;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #f1bdcf;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\n.footer {\n  background-color: #7c508a;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  \n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,yDAA8C;EAC9C,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,UAAU;EACV,qBAAqB;AACvB;;AAEA;;EAEE,aAAa;EACb,QAAQ;EACR,qBAAqB;EACrB,6BAA6B;EAC7B,YAAY;EACZ,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,aAAa;EACb,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,eAAe;EACf,oBAAoB;EACpB,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,cAAc;EACd,cAAc;EACd,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,uBAAuB;EACvB,0BAA0B;EAC1B,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;EACzB,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,cAAc;EACd,gBAAgB;EAChB,aAAa;;AAEf","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(\"../assets/candyBg.jpg\");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin-top: 3em;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #f1bdcf;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\n.footer {\n  background-color: #7c508a;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  \n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -135,6 +140,44 @@ module.exports = function (cssWithMappingToString) {
   };
 
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  }
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
@@ -538,15 +581,38 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ loadContato)
+/* harmony export */   "counter": () => (/* binding */ counter),
+/* harmony export */   "default": () => (/* binding */ contato)
 /* harmony export */ });
-function loadContato(content) {
+let counter = 0;
+
+class contato {
+  static load(content) {
     const title = document.createElement("h1");
     title.innerHTML = "Entre em contato conosco!";
     title.setAttribute("id", "title");
-    content.appendChild(title);
+    const box = document.createElement("div");
+    box.setAttribute("id", "box");
+    box.appendChild(title);
+    content.appendChild(box);
+    contato.counter("add");
   }
-  
+
+  static remove(content) {
+    const box = document.getElementById("box");
+    content.removeChild(box);
+    const contatoBtn = document.getElementById("contato");
+    contatoBtn.classList.remove('selected');
+    contato.counter("remove");
+  }
+
+  static counter(order) {
+    if (order === "add") counter = 1;
+    else if (order === "remove") counter = 0;
+  }
+}
+
+
 
 /***/ }),
 
@@ -558,23 +624,38 @@ function loadContato(content) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "counter": () => (/* binding */ counter),
 /* harmony export */   "default": () => (/* binding */ home)
 /* harmony export */ });
+let counter = 0;
+
 class home {
   static load(content) {
     const title = document.createElement("h1");
     title.innerHTML = "Sua Doceria Coreana!";
     title.setAttribute("id", "title");
-    const box = document.createElement('div');
-    box.classList.add('content');
-    box.appendChild(title)
+    const box = document.createElement("div");
+    box.setAttribute("id", "box");
+    box.appendChild(title);
     content.appendChild(box);
+    //adding 1 to home counter
+  home.counter("add");
   }
 
   static remove(content) {
+    const box = document.getElementById("box");
+    content.removeChild(box);
+    const homeBtn = document.getElementById("home");
+    homeBtn.classList.remove('selected');
+    home.counter("remove");
+  }
 
+  static counter(order) {
+    if (order === "add") counter = 1;
+    else if (order === "remove") counter = 0;
   }
 }
+
 
 
 /***/ }),
@@ -587,15 +668,79 @@ class home {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ loadMenu)
+/* harmony export */   "counter": () => (/* binding */ counter),
+/* harmony export */   "default": () => (/* binding */ menu)
 /* harmony export */ });
-function loadMenu(content) {
-  const title = document.createElement("h1");
-  title.innerHTML = "Faça aqui seu pedido!";
-  title.setAttribute("id", "title");
-  content.appendChild(title);
+let counter = 0;
+
+class menu {
+  static load(content) {
+    const title = document.createElement("h1");
+    title.innerHTML = "Aqui você pode visualizar nosso Menu!";
+    title.setAttribute("id", "title");
+    const box = document.createElement("div");
+    box.setAttribute("id", "box");
+    box.appendChild(title);
+    content.appendChild(box);
+    //adding 1 to menu counter
+  menu.counter("add");
+  }
+
+  static remove(content) {
+    const box = document.getElementById("box");
+    content.removeChild(box);
+    const menuBtn = document.getElementById("menu");
+    menuBtn.classList.remove('selected');
+    menu.counter("remove");
+  }
+
+  static counter(order) {
+    if (order === "add") counter = 1;
+    else if (order === "remove") counter = 0;
+  }
 }
 
+
+
+/***/ }),
+
+/***/ "./src/assets/candyBg.jpg":
+/*!********************************!*\
+  !*** ./src/assets/candyBg.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "candyBg.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/icons/cake.svg":
+/*!***********************************!*\
+  !*** ./src/assets/icons/cake.svg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "cake.svg";
+
+/***/ }),
+
+/***/ "./src/assets/icons/cupcake.svg":
+/*!**************************************!*\
+  !*** ./src/assets/icons/cupcake.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "cupcake.svg";
+
+/***/ }),
+
+/***/ "./src/assets/icons/lolipop.svg":
+/*!**************************************!*\
+  !*** ./src/assets/icons/lolipop.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "lolipop.svg";
 
 /***/ })
 
@@ -625,6 +770,9 @@ function loadMenu(content) {
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -650,6 +798,18 @@ function loadMenu(content) {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -664,6 +824,52 @@ function loadMenu(content) {
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
@@ -683,13 +889,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/menu */ "./src/modules/menu.js");
 /* harmony import */ var _modules_contato__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/contato */ "./src/modules/contato.js");
 /* harmony import */ var _modules_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/home */ "./src/modules/home.js");
+/* harmony import */ var _assets_icons_cupcake_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/icons/cupcake.svg */ "./src/assets/icons/cupcake.svg");
+/* harmony import */ var _assets_icons_lolipop_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/icons/lolipop.svg */ "./src/assets/icons/lolipop.svg");
+/* harmony import */ var _assets_icons_cake_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/icons/cake.svg */ "./src/assets/icons/cake.svg");
 
 
 
+
+
+
+
+
+
+
+
+
+//icon loader
+const cupcakeLeft = document.getElementById('cupcake-left');
+const cupcakeRight = document.getElementById('cupcake-right');
+cupcakeLeft.src = _assets_icons_cupcake_svg__WEBPACK_IMPORTED_MODULE_4__;
+cupcakeRight.src = _assets_icons_cupcake_svg__WEBPACK_IMPORTED_MODULE_4__;
+const cakeLeft = document.getElementById('cake-left');
+const cakeRight = document.getElementById('cake-right');
+cakeLeft.src = _assets_icons_cake_svg__WEBPACK_IMPORTED_MODULE_6__;
+cakeRight.src = _assets_icons_cake_svg__WEBPACK_IMPORTED_MODULE_6__;
+const lolipopLeft = document.getElementById('lolipop-left');
+const lolipopRight = document.getElementById('lolipop-right');
+lolipopLeft.src = _assets_icons_lolipop_svg__WEBPACK_IMPORTED_MODULE_5__;
+lolipopRight.src = _assets_icons_lolipop_svg__WEBPACK_IMPORTED_MODULE_5__;
 
 
 //content element to pass to load function
 const content = document.getElementById("content");
+
 
 //Home button
 const homeBtn = document.getElementById("home");
@@ -699,23 +931,40 @@ _modules_home__WEBPACK_IMPORTED_MODULE_3__["default"].load(content);
 
 //Home button eventListener
 homeBtn.addEventListener("click", () => {
+  //Só ira remover se tiver sido clicado anteriormente
+  if(_modules_home__WEBPACK_IMPORTED_MODULE_3__.counter === 0) {
+  if (_modules_contato__WEBPACK_IMPORTED_MODULE_2__.counter != 0) _modules_contato__WEBPACK_IMPORTED_MODULE_2__["default"].remove(content);
+  if (_modules_menu__WEBPACK_IMPORTED_MODULE_1__.counter != 0) _modules_menu__WEBPACK_IMPORTED_MODULE_1__["default"].remove(content);
   _modules_home__WEBPACK_IMPORTED_MODULE_3__["default"].load(content);
   homeBtn.classList.add("selected");
+  }
 });
+
 
 //Menu button eventListener
 const menuBtn = document.getElementById("menu");
 menuBtn.addEventListener("click", () => {
-  loadMenu(content);
+    if(_modules_menu__WEBPACK_IMPORTED_MODULE_1__.counter === 0) {
+  if (_modules_home__WEBPACK_IMPORTED_MODULE_3__.counter != 0) _modules_home__WEBPACK_IMPORTED_MODULE_3__["default"].remove(content);
+  if (_modules_contato__WEBPACK_IMPORTED_MODULE_2__.counter != 0) _modules_contato__WEBPACK_IMPORTED_MODULE_2__["default"].remove(content);
+  _modules_menu__WEBPACK_IMPORTED_MODULE_1__["default"].load(content);
   menuBtn.classList.add("selected");
+    }
 });
 
+
 //Contato button eventListener
+
 const contatoBtn = document.getElementById("contato");
 contatoBtn.addEventListener("click", () => {
-  loadContato(content);
+    if(_modules_contato__WEBPACK_IMPORTED_MODULE_2__.counter === 0) {
+  if (_modules_home__WEBPACK_IMPORTED_MODULE_3__.counter != 0) _modules_home__WEBPACK_IMPORTED_MODULE_3__["default"].remove(content);
+  if (_modules_menu__WEBPACK_IMPORTED_MODULE_1__.counter != 0) _modules_menu__WEBPACK_IMPORTED_MODULE_1__["default"].remove(content);
+  _modules_contato__WEBPACK_IMPORTED_MODULE_2__["default"].load(content);
   contatoBtn.classList.add("selected");
+    }
 });
+
 
 })();
 

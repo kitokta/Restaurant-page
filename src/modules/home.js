@@ -6,7 +6,6 @@ export default class home {
     title.innerHTML = "Sua Doceria Coreana!";
     title.setAttribute("id", "title");
     const box = document.createElement("div");
-    box.classList.add("content");
     box.setAttribute("id", "box");
     box.appendChild(title);
     content.appendChild(box);

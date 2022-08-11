@@ -6,7 +6,6 @@ export default class menu {
     title.innerHTML = "Aqui você pode visualizar nosso Menu!";
     title.setAttribute("id", "title");
     const box = document.createElement("div");
-    box.classList.add("content");
     box.setAttribute("id", "box");
     box.appendChild(title);
     content.appendChild(box);

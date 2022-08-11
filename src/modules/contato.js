@@ -6,7 +6,6 @@ export default class contato {
     title.innerHTML = "Entre em contato conosco!";
     title.setAttribute("id", "title");
     const box = document.createElement("div");
-    box.classList.add("content");
     box.setAttribute("id", "box");
     box.appendChild(title);
     content.appendChild(box);

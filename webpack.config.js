@@ -6,7 +6,9 @@ module.exports = {
     entry: './src/index.js',
     output: {
       filename: 'bundle.js',
+      clean: true,
       path: path.resolve(__dirname, 'dist'),
+      assetModuleFilename: '[name][ext]',
     },
     devtool: 'source-map',
     devServer: {
@@ -27,6 +29,11 @@ module.exports = {
             'style-loader',
             'css-loader',
           ]
+        },
+        //img
+        {
+          test:/\.(png|svg|jpg|jpeg|gif)$/i,
+          type: 'asset/resource',
         }
       ]
     },

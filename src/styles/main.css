@@ -7,19 +7,41 @@
 body {
   height: 100vh;
   background-color: #fae6ef;
+  background-image: url("../assets/candyBg.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 header {
-  height: 85px;
+  height: 4.8em;
   background-color: #7c508a;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
-  gap: 25px;
   width: 100vw;
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+  align-items: flex-end;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  gap: 5em;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 400px;
+  margin: 0 10em 0 10em;
+}
+
+.icon {
+  width: 58px;
+  height: 58px;
 }
 
 button {
@@ -39,19 +61,34 @@ button:hover {
 }
 
 .content {
-  width: max(70%, 800px);
+  margin: 3em 0 2em 0;
+  border-radius: 1.2em;
+  width: max(50%, 600px);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f1bdcf;
   height: 100%;
-  padding: 30px;
+  padding: 1.5em;
   color: #7c508a;
   font-weight: bold;
+  border: 2px solid #7c508a;
 }
 
 .selected {
   height: 50px !important;
   font-size: 24px !important;
-  background-color: #FAE6EF;
+  background-color: #fae6ef;
+}
+
+footer {
+  background-color: #7c508a;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1bdcf;
+  margin-top: auto;
+  padding: 20px;
+  width: 100vw;
 }
