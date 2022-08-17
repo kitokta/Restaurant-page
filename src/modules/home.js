@@ -1,8 +1,6 @@
 let counter = 0;
 import toast from '../assets/toast.jpg';
-import cupcakeIcon from "../assets/icons/cupcake.svg";
-import lolipopIcon from "../assets/icons/lolipop.svg";
-import cakeIcon from "../assets/icons/cake.svg";
+
 
 export default class home {
   static load(content) {

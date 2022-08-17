@@ -12,8 +12,9 @@ export default class contato {
 
     //text content (whatsapp)
     const textDiv1 = document.createElement('div');
-    const textContent1 = document.createElement('h2');
+    const textContent1 = document.createElement('h3');
     textContent1.innerHTML = "(55) 95555-5555"
+    textContent1.classList.add('social-media-text');
     textDiv1.classList.add('text-div-grid', 'text-div');
     textDiv1.appendChild(textContent1);
 
@@ -27,7 +28,8 @@ export default class contato {
     //text content (instagram)
     const textDiv2 = document.createElement('div');
     const textContent2 = document.createElement('h3');
-    textContent2.innerHTML = "@padariacoreanaverdadeira"
+    textContent2.innerHTML = "@padariacoreanaverdadeira";
+    textContent2.classList.add('social-media-text');
     textDiv2.classList.add('text-div-grid', 'text-div');
     textDiv2.appendChild(textContent2);
 
@@ -42,6 +44,7 @@ export default class contato {
     const textDiv3 = document.createElement('div');
     const textContent3 = document.createElement('h3');
     textContent3.innerHTML = "emailverdadeiro@naosoufalso.com"
+    textContent3.classList.add('social-media-text');
     textDiv3.classList.add('text-div-grid', 'text-div');
     textDiv3.appendChild(textContent3);
 
