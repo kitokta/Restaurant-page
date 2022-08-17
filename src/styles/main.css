@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -69,7 +70,7 @@ button:hover {
   align-items: center;
   background-color: #fae6ef;
   height: 100%;
-  padding: 1.5em;
+  padding: 1em;
   color: #7c508a;
   font-weight: bold;
   border: 2px solid #7c508a;
@@ -96,10 +97,11 @@ footer {
 #box {
   display: flex;
   flex-direction: column;
-  gap: 3em;
+  gap: 2em;
   height: 100%;
+  width: 100%;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
 }
 
 .text-div {
@@ -116,9 +118,16 @@ footer {
   background-color: #f1bdcf;
 }
 
-#text-div h2 {
+.text-div h2 {
   font-size: 1.5em;
-  margin-top: -3em;
+  width: clamp(8em, 50%, 12em);
+}
+
+.text-div-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: center !important;
+  justify-items: center;
 }
 
 ul {
@@ -140,4 +149,5 @@ ul {
   height: 90%;
   width: 50%;
   border-radius: 12em;
+  border: 0.3em solid #7c508a;
 }
