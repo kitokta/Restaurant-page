@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #f1bdcf;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,yDAA8C;EAC9C,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,UAAU;EACV,qBAAqB;AACvB;;AAEA;;EAEE,aAAa;EACb,QAAQ;EACR,qBAAqB;EACrB,6BAA6B;EAC7B,YAAY;EACZ,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,aAAa;EACb,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,oBAAoB;EACpB,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,cAAc;EACd,cAAc;EACd,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,uBAAuB;EACvB,0BAA0B;EAC1B,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,cAAc;EACd,gBAAgB;EAChB,aAAa;EACb,YAAY;AACd","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(\"../assets/candyBg.jpg\");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #f1bdcf;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 3em;\n  height: 100%;\n  align-items: center;\n  justify-content: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 2em;\n  padding: 2em;\n  border: 0.6em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n#text-div h2 {\n  font-size: 1.5em;\n  margin-top: -3em;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 90%;\n  width: 50%;\n  border-radius: 12em;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,yDAA8C;EAC9C,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,UAAU;EACV,qBAAqB;AACvB;;AAEA;;EAEE,aAAa;EACb,QAAQ;EACR,qBAAqB;EACrB,6BAA6B;EAC7B,YAAY;EACZ,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,aAAa;EACb,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,oBAAoB;EACpB,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,cAAc;EACd,cAAc;EACd,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,uBAAuB;EACvB,0BAA0B;EAC1B,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,cAAc;EACd,gBAAgB;EAChB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,QAAQ;EACR,YAAY;EACZ,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,gBAAgB;EAChB,UAAU;EACV,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,QAAQ;EACR,YAAY;EACZ,2BAA2B;EAC3B,kBAAkB;EAClB,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,gBAAgB;EAChB,QAAQ;AACV;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,UAAU;AACZ;;AAEA;EACE,WAAW;EACX,UAAU;EACV,mBAAmB;AACrB","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(\"../assets/candyBg.jpg\");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 3em;\n  height: 100%;\n  align-items: center;\n  justify-content: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 2em;\n  padding: 2em;\n  border: 0.6em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n#text-div h2 {\n  font-size: 1.5em;\n  margin-top: -3em;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 90%;\n  width: 50%;\n  border-radius: 12em;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -627,16 +627,65 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "counter": () => (/* binding */ counter),
 /* harmony export */   "default": () => (/* binding */ home)
 /* harmony export */ });
+/* harmony import */ var _assets_toast_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/toast.jpg */ "./src/assets/toast.jpg");
+/* harmony import */ var _assets_icons_cupcake_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/icons/cupcake.svg */ "./src/assets/icons/cupcake.svg");
+/* harmony import */ var _assets_icons_lolipop_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/icons/lolipop.svg */ "./src/assets/icons/lolipop.svg");
+/* harmony import */ var _assets_icons_cake_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/icons/cake.svg */ "./src/assets/icons/cake.svg");
 let counter = 0;
+
+
+
+
 
 class home {
   static load(content) {
+    //title
     const title = document.createElement("h1");
-    title.innerHTML = "Sua Doceria Coreana!";
+    title.innerHTML = `Padaria Coreana! <br> 한국 빵집`;
     title.setAttribute("id", "title");
+    title.style.textAlign = "center";
+
+    //text content
+    const textDiv1 = document.createElement('div');
+    const textContent = document.createElement('h2');
+    textContent.innerHTML = "Acreditamos que a paixão pela culinária Coreana precisa ser compartilhada"
+    textDiv1.classList.add('text-div');
+    textDiv1.appendChild(textContent);
+
+    //textDiv1 Image
+    const toastImg = document.createElement('img');
+    toastImg.src = _assets_toast_jpg__WEBPACK_IMPORTED_MODULE_0__;
+    toastImg.alt = '딸기 샌드위치';
+    toastImg.classList.add('content-img');
+    textDiv1.appendChild(toastImg);
+
+    //Hours
+    const textDiv2 = document.createElement('div');
+    const hourTitle = document.createElement('h1');
+    hourTitle.innerHTML = 'Horário de funcionamento:';
+    const list = document.createElement('ul');
+    const hours = ['Domingo: 06:00 - 20:00', 'Segunda-feira: 06:00 - 19:00', 'Terça-feira: 06:00 - 19:00', 'Quarta-feira: 06:00 - 19:00', 'Quinta-Feira: 06:00 - 20:00', 'Sexta-feira: 06:00 - 21:00', 'Sábado: 06:00 - 21:00'];
+    for(let i=0; i<hours.length; i++){
+      const listItem = document.createElement('li');
+      listItem.innerHTML = hours[i];
+      list.appendChild(listItem);
+    }
+  
+    textDiv2.classList.add('text-div');
+    const hourDiv = document.createElement('div');
+    hourDiv.setAttribute('id', 'hour-div');
+    hourDiv.appendChild(hourTitle);
+    hourDiv.appendChild(list);
+    textDiv2.appendChild(hourDiv);
+
+
+
+    //adding everything to the screen box
     const box = document.createElement("div");
     box.setAttribute("id", "box");
     box.appendChild(title);
+    box.appendChild(textDiv1);
+    box.appendChild(textDiv2);
     content.appendChild(box);
     //adding 1 to home counter
   home.counter("add");
@@ -741,6 +790,16 @@ module.exports = __webpack_require__.p + "cupcake.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "lolipop.svg";
+
+/***/ }),
+
+/***/ "./src/assets/toast.jpg":
+/*!******************************!*\
+  !*** ./src/assets/toast.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "toast.jpg";
 
 /***/ })
 
