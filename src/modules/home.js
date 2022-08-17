@@ -29,6 +29,7 @@ export default class home {
     const hourTitle = document.createElement('h1');
     hourTitle.innerHTML = 'Horário de funcionamento:';
     const list = document.createElement('ul');
+    list.setAttribute('id', 'home-list');
     const hours = ['Domingo: 06:00 - 20:00', 'Segunda-feira: 06:00 - 19:00', 'Terça-feira: 06:00 - 19:00', 'Quarta-feira: 06:00 - 19:00', 'Quinta-Feira: 06:00 - 20:00', 'Sexta-feira: 06:00 - 21:00', 'Sábado: 06:00 - 21:00'];
     for(let i=0; i<hours.length; i++){
       const listItem = document.createElement('li');

@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background-color: #fae6ef;
+  width: 100vw;
   background-image: url("../assets/candyBg.jpg");
   display: flex;
   flex-direction: column;
@@ -36,8 +36,7 @@ header {
   gap: 5em;
   align-items: flex-end;
   justify-content: space-around;
-  max-width: 400px;
-  margin: 0 10em 0 10em;
+  margin: 0 auto 0 auto;
 }
 
 .icon {
@@ -54,6 +53,8 @@ button {
   padding: 10px;
   font-size: 20px;
   color: #7c508a;
+  border-top-left-radius: 1.2em;
+  border-top-right-radius: 1.2em;
 }
 
 button:hover {
@@ -91,7 +92,7 @@ footer {
   color: #f1bdcf;
   margin-top: auto;
   padding: 20px;
-  width: 100vw;
+  width: 100%;
 }
 
 #box {
@@ -113,7 +114,7 @@ footer {
   align-items: center;
   gap: 1.2em;
   padding: 1.5em;
-  border: 0.6em solid #7c508a;
+  border: 0.3em solid #7c508a;
   border-radius: 6em;
   background-color: #f1bdcf;
 }
@@ -144,6 +145,9 @@ ul {
   flex-direction: column;
   list-style: none;
   gap: 1em;
+}
+
+#home-list {
   border: 2px solid #fae6ef;
   padding: 2em;
   border-radius: 1em;
