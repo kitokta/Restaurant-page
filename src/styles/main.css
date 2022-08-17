@@ -67,7 +67,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1bdcf;
+  background-color: #fae6ef;
   height: 100%;
   padding: 1.5em;
   color: #7c508a;
@@ -91,4 +91,53 @@ footer {
   margin-top: auto;
   padding: 20px;
   width: 100vw;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-div {
+  min-height: 15em;
+  width: 70%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border: 0.6em solid #7c508a;
+  border-radius: 6em;
+  background-color: #f1bdcf;
+}
+
+#text-div h2 {
+  font-size: 1.5em;
+  margin-top: -3em;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1em;
+}
+
+#hour-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.content-img {
+  height: 90%;
+  width: 50%;
+  border-radius: 12em;
 }
