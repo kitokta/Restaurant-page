@@ -120,14 +120,17 @@ footer {
 
 .text-div h2 {
   font-size: 1.5em;
-  width: clamp(8em, 50%, 12em);
+  width: clamp(8em, 30%, 12em);
+}
+
+.text-div h3 {
+  width: clamp(5em, 30%, 9em);
 }
 
 .text-div-grid {
   display: grid !important;
-  grid-template-columns: 1fr 1fr;
-  align-items: center !important;
-  justify-items: center;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
 }
 
 ul {
