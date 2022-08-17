@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 3em;\n  height: 100%;\n  align-items: center;\n  justify-content: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 2em;\n  padding: 2em;\n  border: 0.6em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n#text-div h2 {\n  font-size: 1.5em;\n  margin-top: -3em;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 90%;\n  width: 50%;\n  border-radius: 12em;\n  border: 0.3em solid #7c508a;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,yDAA8C;EAC9C,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,UAAU;EACV,qBAAqB;AACvB;;AAEA;;EAEE,aAAa;EACb,QAAQ;EACR,qBAAqB;EACrB,6BAA6B;EAC7B,YAAY;EACZ,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,aAAa;EACb,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,oBAAoB;EACpB,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,cAAc;EACd,cAAc;EACd,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,uBAAuB;EACvB,0BAA0B;EAC1B,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,cAAc;EACd,gBAAgB;EAChB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,QAAQ;EACR,YAAY;EACZ,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,gBAAgB;EAChB,UAAU;EACV,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,QAAQ;EACR,YAAY;EACZ,2BAA2B;EAC3B,kBAAkB;EAClB,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,gBAAgB;EAChB,QAAQ;AACV;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,UAAU;AACZ;;AAEA;EACE,WAAW;EACX,UAAU;EACV,mBAAmB;EACnB,2BAA2B;AAC7B","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(\"../assets/candyBg.jpg\");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1.5em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 3em;\n  height: 100%;\n  align-items: center;\n  justify-content: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 2em;\n  padding: 2em;\n  border: 0.6em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n#text-div h2 {\n  font-size: 1.5em;\n  margin-top: -3em;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 90%;\n  width: 50%;\n  border-radius: 12em;\n  border: 0.3em solid #7c508a;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: 'Lato', sans-serif;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 2em;\n  height: 100%;\n  width: 100%;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 2em;\n  padding: 2em;\n  border: 0.6em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n.text-div h2 {\n  font-size: 1.5em;\n  width: clamp(8em, 30%, 12em);\n}\n\n.text-div h3 {\n  width: clamp(5em, 30%, 9em);\n}\n\n.text-div-grid {\n  display: grid !important;\n  grid-template-columns: 4fr 1fr;\n  align-items: center;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 90%;\n  width: 50%;\n  border-radius: 12em;\n  border: 0.3em solid #7c508a;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,yDAA8C;EAC9C,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,+BAA+B;AACjC;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,UAAU;EACV,qBAAqB;AACvB;;AAEA;;EAEE,aAAa;EACb,QAAQ;EACR,qBAAqB;EACrB,6BAA6B;EAC7B,YAAY;EACZ,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,aAAa;EACb,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,oBAAoB;EACpB,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,YAAY;EACZ,cAAc;EACd,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,uBAAuB;EACvB,0BAA0B;EAC1B,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,cAAc;EACd,gBAAgB;EAChB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,QAAQ;EACR,YAAY;EACZ,WAAW;EACX,2BAA2B;EAC3B,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,UAAU;EACV,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,QAAQ;EACR,YAAY;EACZ,2BAA2B;EAC3B,kBAAkB;EAClB,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,4BAA4B;AAC9B;;AAEA;EACE,2BAA2B;AAC7B;;AAEA;EACE,wBAAwB;EACxB,8BAA8B;EAC9B,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,gBAAgB;EAChB,QAAQ;AACV;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,UAAU;AACZ;;AAEA;EACE,WAAW;EACX,UAAU;EACV,mBAAmB;EACnB,2BAA2B;AAC7B","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  background-color: #fae6ef;\n  background-image: url(\"../assets/candyBg.jpg\");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: 'Lato', sans-serif;\n}\n\nheader {\n  height: 4.8em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n}\n\n.header-center {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  width: 400px;\n  margin: 0 10em 0 10em;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n}\n\nbutton:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100vw;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 2em;\n  height: 100%;\n  width: 100%;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 2em;\n  padding: 2em;\n  border: 0.6em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n.text-div h2 {\n  font-size: 1.5em;\n  width: clamp(8em, 30%, 12em);\n}\n\n.text-div h3 {\n  width: clamp(5em, 30%, 9em);\n}\n\n.text-div-grid {\n  display: grid !important;\n  grid-template-columns: 4fr 1fr;\n  align-items: center;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 90%;\n  width: 50%;\n  border-radius: 12em;\n  border: 0.3em solid #7c508a;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -584,16 +584,70 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "counter": () => (/* binding */ counter),
 /* harmony export */   "default": () => (/* binding */ contato)
 /* harmony export */ });
+/* harmony import */ var _assets_icons_gmail_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/icons/gmail.png */ "./src/assets/icons/gmail.png");
+/* harmony import */ var _assets_icons_whatsapp_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/icons/whatsapp.png */ "./src/assets/icons/whatsapp.png");
+/* harmony import */ var _assets_icons_instagram_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/icons/instagram.png */ "./src/assets/icons/instagram.png");
 let counter = 0;
+
+
+
+
 
 class contato {
   static load(content) {
     const title = document.createElement("h1");
     title.innerHTML = "Entre em contato conosco!";
     title.setAttribute("id", "title");
+
+    //text content (whatsapp)
+    const textDiv1 = document.createElement('div');
+    const textContent1 = document.createElement('h2');
+    textContent1.innerHTML = "(55) 95555-5555"
+    textDiv1.classList.add('text-div-grid', 'text-div');
+    textDiv1.appendChild(textContent1);
+
+    //textDiv1 Image
+    const whatsappIcon = document.createElement('img');
+    whatsappIcon.src = _assets_icons_whatsapp_png__WEBPACK_IMPORTED_MODULE_1__;
+    whatsappIcon.alt = 'whatsapp-icon';
+    whatsappIcon.style.height = '50%';
+    textDiv1.appendChild(whatsappIcon);
+
+    //text content (instagram)
+    const textDiv2 = document.createElement('div');
+    const textContent2 = document.createElement('h3');
+    textContent2.innerHTML = "@padariacoreanaverdadeira"
+    textDiv2.classList.add('text-div-grid', 'text-div');
+    textDiv2.appendChild(textContent2);
+
+    //textDiv2 Image
+    const instagramIcon = document.createElement('img');
+    instagramIcon.src = _assets_icons_instagram_png__WEBPACK_IMPORTED_MODULE_2__;
+    instagramIcon.alt = 'instagram-icon';
+    instagramIcon.style.height = '50%';
+    textDiv2.appendChild(instagramIcon);
+
+    //text content (mail)
+    const textDiv3 = document.createElement('div');
+    const textContent3 = document.createElement('h3');
+    textContent3.innerHTML = "emailverdadeiro@naosoufalso.com"
+    textDiv3.classList.add('text-div-grid', 'text-div');
+    textDiv3.appendChild(textContent3);
+
+    //textDiv1 Image
+    const mailIcon = document.createElement('img');
+    mailIcon.src = _assets_icons_gmail_png__WEBPACK_IMPORTED_MODULE_0__;
+    mailIcon.alt = 'mail-icon';
+    mailIcon.style.height = '50%';
+    textDiv3.appendChild(mailIcon);
+
+
     const box = document.createElement("div");
     box.setAttribute("id", "box");
     box.appendChild(title);
+    box.appendChild(textDiv1);
+    box.appendChild(textDiv2);
+    box.appendChild(textDiv3);
     content.appendChild(box);
     contato.counter("add");
   }
@@ -783,6 +837,26 @@ module.exports = __webpack_require__.p + "cupcake.svg";
 
 /***/ }),
 
+/***/ "./src/assets/icons/gmail.png":
+/*!************************************!*\
+  !*** ./src/assets/icons/gmail.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "gmail.png";
+
+/***/ }),
+
+/***/ "./src/assets/icons/instagram.png":
+/*!****************************************!*\
+  !*** ./src/assets/icons/instagram.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "instagram.png";
+
+/***/ }),
+
 /***/ "./src/assets/icons/lolipop.svg":
 /*!**************************************!*\
   !*** ./src/assets/icons/lolipop.svg ***!
@@ -790,6 +864,16 @@ module.exports = __webpack_require__.p + "cupcake.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "lolipop.svg";
+
+/***/ }),
+
+/***/ "./src/assets/icons/whatsapp.png":
+/*!***************************************!*\
+  !*** ./src/assets/icons/whatsapp.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "whatsapp.png";
 
 /***/ }),
 
