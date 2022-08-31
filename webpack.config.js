@@ -39,7 +39,7 @@ module.exports = {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        title: 'Webpack App',
+        title: 'Restaurant Page',
         filename: 'index.html',
         template: 'src/template.html',
       }),

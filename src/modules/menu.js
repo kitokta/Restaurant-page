@@ -58,8 +58,6 @@ export default class menu {
     list2.style.padding = '2em';
     itemDiv2.appendChild(list2);
 
-
-
     const box = document.createElement("div");
     box.setAttribute("id", "box");
     box.appendChild(header);
@@ -74,7 +72,9 @@ export default class menu {
     const box = document.getElementById("box");
     content.removeChild(box);
     const menuBtn = document.getElementById("menu");
+    const dropdownButtons = document.querySelector(".dropdown-button");
     menuBtn.classList.remove('selected');
+    dropdownButtons.classList.remove('selected');
     menu.counter("remove");
   }
 

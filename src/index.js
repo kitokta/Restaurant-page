@@ -8,7 +8,7 @@ import { counter as homeCounter } from "./modules/home";
 import cupcakeIcon from "./assets/icons/cupcake.svg";
 import lolipopIcon from "./assets/icons/lolipop.svg";
 import cakeIcon from "./assets/icons/cake.svg";
-
+import hoverDropdown from "./modules/dropdown";
 
 //icon loader
 const cupcakeLeft = document.getElementById('cupcake-left');
@@ -48,13 +48,18 @@ homeBtn.addEventListener("click", () => {
 
 
 //Menu button eventListener
+const dropdown = document.getElementById("dropdown-buttons");
 const menuBtn = document.getElementById("menu");
+const menuDrop = document.getElementById("menu-dropdown");
+const dropdownButtons = document.querySelector(".dropdown-button");
+hoverDropdown(menuDrop, dropdown);
 menuBtn.addEventListener("click", () => {
     if(menuCounter === 0) {
   if (homeCounter != 0) home.remove(content);
   if (contatoCounter != 0) contato.remove(content);
   menu.load(content);
   menuBtn.classList.add("selected");
+  dropdownButtons.classList.add("selected");
     }
 });
 

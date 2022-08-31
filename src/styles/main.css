@@ -15,19 +15,21 @@ body {
 }
 
 header {
-  height: 4.8em;
+  height: 5em;
   background-color: #7c508a;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 100vw;
+  
 }
 
-.header-center {
+.navbar {
   display: flex;
   justify-content: center;
   gap: 1.2em;
   align-items: flex-end;
+  
 }
 
 .header-left,
@@ -57,13 +59,39 @@ button {
   border-top-right-radius: 1.2em;
 }
 
-button:hover {
+.menu-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dropdown-buttons{
+  border-radius: 0;
+  position: absolute;
+  border-radius: 0em;
+  border: 1px solid #f1bdcf;
+  
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.dropdown-button {
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-button:hover{
+  height: 43px;
+  font-size: 21;
+}
+
+.main:hover {
   height: 43px;
   font-size: 21px;
 }
 
 .content {
-  margin: 3em 0 2em 0;
+  margin: 3.5em 0 2em 0;
   border-radius: 1.2em;
   width: max(50%, 600px);
   display: flex;
