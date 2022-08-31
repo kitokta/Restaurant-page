@@ -1,3 +1,5 @@
+// Requires the HTML parent dropElement and the dropButton list
+
 export default function hoverDropdown (dropElement, dropButton) {
     dropElement.addEventListener("mouseover", () => {
     dropButton.style.visibility = "visible";
