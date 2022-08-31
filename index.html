@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpack App</title>
+    <title>Restaurant Page</title>
   <script defer src="bundle.js"></script></head>
   <body>
     <header>
@@ -14,19 +14,26 @@
         <img class='icon' id="cake-left" alt="cake">
       </div>
 
-      <div class="header-center">
-      <button id="home">Home</button>
-      <button id="menu">Menu</button>
-      <button id="contato">Contato</button>
-    </div>
-
+      <div class="navbar">
+        <button class="main" id="home">Home</button>
+        <div class="menu-dropdown">
+          <button class="main" id="menu">Menu</button>
+            <div id="dropdown-buttons">
+              <button class="dropdown-button" id="admin">Admin</button>
+            </div>
+        </div>
+        <button class="main" id="contato">Contato</button>
+      </div>
+      
       <div class="header-right">
         <img class='icon' id='cake-right' alt="cupcake">
         <img class='icon' id="lolipop-right" alt="lolipop">
         <img class='icon' id="cupcake-right" alt="cake">
       </div>
     </header>
+
     <div id="content" class="content"></div>
+
     <footer>
       <h1>Copyright &copy; Zanini 2022</h1>
     </footer>
