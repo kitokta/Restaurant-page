@@ -1,7 +1,7 @@
 let counter = 0;
 import menuImg from '../assets/icons/menu.png';
 import raspadinhaImg from '../assets/raspadinha.png';
-import donutImg from '../assets/donut.jpg';
+import donutImg from '../assets/donut.jpg'
 
 export default class menu {
   static load(content) {
