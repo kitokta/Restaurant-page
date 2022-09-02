@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: 'Lato', sans-serif;\n}\n\nheader {\n  height: 5em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n  \n}\n\n.navbar {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n  \n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  margin: 0 auto 0 auto;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n  border-top-left-radius: 1.2em;\n  border-top-right-radius: 1.2em;\n}\n\n.menu-dropdown {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#dropdown-buttons{\n  border-radius: 0;\n  position: absolute;\n  margin-top: 40px;\n  border-radius: 0em;\n  border: 2px solid #f1bdcf;\n  visibility: hidden;\n  pointer-events: none;\n}\n\n.dropdown-button.selected {\n  margin-top: 48px !important;\n}\n\n\n.main:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3.5em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100%;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 2em;\n  height: 100%;\n  width: 100%;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 1.2em;\n  padding: 1.5em;\n  border: 0.3em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n.text-div h2 {\n  font-size: 1.5em;\n  width: clamp(10em, 40%, 12em);\n}\n\n.text-div h3 {\n  width: clamp(5em, 30%, 9em);\n}\n\n.text-div-grid {\n  display: grid !important;\n  grid-template-columns: 4fr 1fr;\n  align-items: center;\n}\n\n.text-div-grid-menu {\n  display: grid !important;\n  grid-template-columns: 1fr 1fr;\n  gap: 0;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#home-list {\n  border: 2px solid #fae6ef;\n  padding: 2em;\n  border-radius: 1em;\n}\n\nli {\n  font-size: 1.2em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 100%;\n  width: 40%;\n  border-radius: 12em;\n}\n\n.menu-img {\n  height: 70%;\n  width: 90%;\n  border-radius: 12em;\n  align-self: center;\n  justify-self: center;\n}\n\n#menu-header {\n  display: grid;\n  grid-template-columns: 1fr 10fr;\n  width: 100%;\n}\n\n#menu-header #title {\n  padding-right: 2.5em;\n}\n\n.menu-icon {\n  margin-right: auto;\n}\n\n.social-media-text {\njustify-self: center;\nmargin-right: 2.5em;\nwidth: 15em !important;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,yDAA8C;EAC9C,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,+BAA+B;AACjC;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;EACrB,YAAY;;AAEd;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,UAAU;EACV,qBAAqB;;AAEvB;;AAEA;;EAEE,aAAa;EACb,QAAQ;EACR,qBAAqB;EACrB,6BAA6B;EAC7B,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,aAAa;EACb,eAAe;EACf,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;AAChC;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,yBAAyB;EACzB,kBAAkB;EAClB,oBAAoB;AACtB;;AAEA;EACE,2BAA2B;AAC7B;;;AAGA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,qBAAqB;EACrB,oBAAoB;EACpB,sBAAsB;EACtB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,YAAY;EACZ,cAAc;EACd,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,uBAAuB;EACvB,0BAA0B;EAC1B,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,cAAc;EACd,gBAAgB;EAChB,aAAa;EACb,WAAW;AACb;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,QAAQ;EACR,YAAY;EACZ,WAAW;EACX,2BAA2B;EAC3B,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,UAAU;EACV,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,UAAU;EACV,cAAc;EACd,2BAA2B;EAC3B,kBAAkB;EAClB,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,6BAA6B;AAC/B;;AAEA;EACE,2BAA2B;AAC7B;;AAEA;EACE,wBAAwB;EACxB,8BAA8B;EAC9B,mBAAmB;AACrB;;AAEA;EACE,wBAAwB;EACxB,8BAA8B;EAC9B,MAAM;AACR;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,gBAAgB;EAChB,QAAQ;AACV;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,UAAU;AACZ;;AAEA;EACE,YAAY;EACZ,UAAU;EACV,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,UAAU;EACV,mBAAmB;EACnB,kBAAkB;EAClB,oBAAoB;AACtB;;AAEA;EACE,aAAa;EACb,+BAA+B;EAC/B,WAAW;AACb;;AAEA;EACE,oBAAoB;AACtB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;AACA,oBAAoB;AACpB,mBAAmB;AACnB,sBAAsB;AACtB","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(\"../assets/candyBg.jpg\");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: 'Lato', sans-serif;\n}\n\nheader {\n  height: 5em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n  \n}\n\n.navbar {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n  \n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  margin: 0 auto 0 auto;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n  border-top-left-radius: 1.2em;\n  border-top-right-radius: 1.2em;\n}\n\n.menu-dropdown {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#dropdown-buttons{\n  border-radius: 0;\n  position: absolute;\n  margin-top: 40px;\n  border-radius: 0em;\n  border: 2px solid #f1bdcf;\n  visibility: hidden;\n  pointer-events: none;\n}\n\n.dropdown-button.selected {\n  margin-top: 48px !important;\n}\n\n\n.main:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3.5em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100%;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 2em;\n  height: 100%;\n  width: 100%;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 1.2em;\n  padding: 1.5em;\n  border: 0.3em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n.text-div h2 {\n  font-size: 1.5em;\n  width: clamp(10em, 40%, 12em);\n}\n\n.text-div h3 {\n  width: clamp(5em, 30%, 9em);\n}\n\n.text-div-grid {\n  display: grid !important;\n  grid-template-columns: 4fr 1fr;\n  align-items: center;\n}\n\n.text-div-grid-menu {\n  display: grid !important;\n  grid-template-columns: 1fr 1fr;\n  gap: 0;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#home-list {\n  border: 2px solid #fae6ef;\n  padding: 2em;\n  border-radius: 1em;\n}\n\nli {\n  font-size: 1.2em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 100%;\n  width: 40%;\n  border-radius: 12em;\n}\n\n.menu-img {\n  height: 70%;\n  width: 90%;\n  border-radius: 12em;\n  align-self: center;\n  justify-self: center;\n}\n\n#menu-header {\n  display: grid;\n  grid-template-columns: 1fr 10fr;\n  width: 100%;\n}\n\n#menu-header #title {\n  padding-right: 2.5em;\n}\n\n.menu-icon {\n  margin-right: auto;\n}\n\n.social-media-text {\njustify-self: center;\nmargin-right: 2.5em;\nwidth: 15em !important;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: 'Lato', sans-serif;\n}\n\nheader {\n  height: 5em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n  \n}\n\n.navbar {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n  \n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  margin: 0 auto 0 auto;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n  border-top-left-radius: 1.2em;\n  border-top-right-radius: 1.2em;\n}\n\n.menu-dropdown {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#dropdown-buttons{\n  border-radius: 0;\n  position: absolute;\n  border-radius: 0em;\n  border: 1px solid #f1bdcf;\n  \n  visibility: hidden;\n  pointer-events: none;\n}\n\n.dropdown-button {\n  border: none;\n  border-radius: 0;\n}\n\n.dropdown-button:hover{\n  height: 43px;\n  font-size: 21;\n}\n\n.main:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3.5em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100%;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 2em;\n  height: 100%;\n  width: 100%;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 1.2em;\n  padding: 1.5em;\n  border: 0.3em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n.text-div h2 {\n  font-size: 1.5em;\n  width: clamp(10em, 40%, 12em);\n}\n\n.text-div h3 {\n  width: clamp(5em, 30%, 9em);\n}\n\n.text-div-grid {\n  display: grid !important;\n  grid-template-columns: 4fr 1fr;\n  align-items: center;\n}\n\n.text-div-grid-menu {\n  display: grid !important;\n  grid-template-columns: 1fr 1fr;\n  gap: 0;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#home-list {\n  border: 2px solid #fae6ef;\n  padding: 2em;\n  border-radius: 1em;\n}\n\nli {\n  font-size: 1.2em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 100%;\n  width: 40%;\n  border-radius: 12em;\n}\n\n.menu-img {\n  height: 70%;\n  width: 90%;\n  border-radius: 12em;\n  align-self: center;\n  justify-self: center;\n}\n\n#menu-header {\n  display: grid;\n  grid-template-columns: 1fr 10fr;\n  width: 100%;\n}\n\n#menu-header #title {\n  padding-right: 2.5em;\n}\n\n.menu-icon {\n  margin-right: auto;\n}\n\n.social-media-text {\njustify-self: center;\nmargin-right: 2.5em;\nwidth: 15em !important;\n}\n\n.slider-div {\n  background-color: #fae6ef;\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: space-between;\n  padding: 1.5em;\n  border: 0.3em solid #7c508a;\n  border-radius: 4em;\n}\n\n.arrow {\n  height: 100%;\n  width: 10%;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"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","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(\"../assets/candyBg.jpg\");\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: 'Lato', sans-serif;\n}\n\nheader {\n  height: 5em;\n  background-color: #7c508a;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 100vw;\n  \n}\n\n.navbar {\n  display: flex;\n  justify-content: center;\n  gap: 1.2em;\n  align-items: flex-end;\n  \n}\n\n.header-left,\n.header-right {\n  display: flex;\n  gap: 5em;\n  align-items: flex-end;\n  justify-content: space-around;\n  margin: 0 auto 0 auto;\n}\n\n.icon {\n  width: 58px;\n  height: 58px;\n}\n\nbutton {\n  background-color: #ea9ab6;\n  border: 2px solid #f1bdcf;\n  border-bottom: none;\n  height: 40px;\n  width: 105px;\n  padding: 10px;\n  font-size: 20px;\n  color: #7c508a;\n  border-top-left-radius: 1.2em;\n  border-top-right-radius: 1.2em;\n}\n\n.menu-dropdown {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#dropdown-buttons{\n  border-radius: 0;\n  position: absolute;\n  border-radius: 0em;\n  border: 1px solid #f1bdcf;\n  \n  visibility: hidden;\n  pointer-events: none;\n}\n\n.dropdown-button {\n  border: none;\n  border-radius: 0;\n}\n\n.dropdown-button:hover{\n  height: 43px;\n  font-size: 21;\n}\n\n.main:hover {\n  height: 43px;\n  font-size: 21px;\n}\n\n.content {\n  margin: 3.5em 0 2em 0;\n  border-radius: 1.2em;\n  width: max(50%, 600px);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: #fae6ef;\n  height: 100%;\n  padding: 1em;\n  color: #7c508a;\n  font-weight: bold;\n  border: 2px solid #7c508a;\n}\n\n.selected {\n  height: 50px !important;\n  font-size: 24px !important;\n  background-color: #fae6ef;\n}\n\nfooter {\n  background-color: #7c508a;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #f1bdcf;\n  margin-top: auto;\n  padding: 20px;\n  width: 100%;\n}\n\n#box {\n  display: flex;\n  flex-direction: column;\n  gap: 2em;\n  height: 100%;\n  width: 100%;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n.text-div {\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 1.2em;\n  padding: 1.5em;\n  border: 0.3em solid #7c508a;\n  border-radius: 6em;\n  background-color: #f1bdcf;\n}\n\n.text-div h2 {\n  font-size: 1.5em;\n  width: clamp(10em, 40%, 12em);\n}\n\n.text-div h3 {\n  width: clamp(5em, 30%, 9em);\n}\n\n.text-div-grid {\n  display: grid !important;\n  grid-template-columns: 4fr 1fr;\n  align-items: center;\n}\n\n.text-div-grid-menu {\n  display: grid !important;\n  grid-template-columns: 1fr 1fr;\n  gap: 0;\n}\n\nul {\n  display: flex;\n  flex-direction: column;\n  list-style: none;\n  gap: 1em;\n}\n\n#home-list {\n  border: 2px solid #fae6ef;\n  padding: 2em;\n  border-radius: 1em;\n}\n\nli {\n  font-size: 1.2em;\n}\n\n#hour-div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 1.5em;\n}\n\n.content-img {\n  height: 100%;\n  width: 40%;\n  border-radius: 12em;\n}\n\n.menu-img {\n  height: 70%;\n  width: 90%;\n  border-radius: 12em;\n  align-self: center;\n  justify-self: center;\n}\n\n#menu-header {\n  display: grid;\n  grid-template-columns: 1fr 10fr;\n  width: 100%;\n}\n\n#menu-header #title {\n  padding-right: 2.5em;\n}\n\n.menu-icon {\n  margin-right: auto;\n}\n\n.social-media-text {\njustify-self: center;\nmargin-right: 2.5em;\nwidth: 15em !important;\n}\n\n.slider-div {\n  background-color: #fae6ef;\n  min-height: 15em;\n  width: 70%;\n  align-self: center;\n  display: flex;\n  justify-content: space-between;\n  padding: 1.5em;\n  border: 0.3em solid #7c508a;\n  border-radius: 4em;\n}\n\n.arrow {\n  height: 100%;\n  width: 10%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -683,6 +683,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ hoverDropdown)
 /* harmony export */ });
+// Requires the HTML parent dropElement and the dropButton list
+
 function hoverDropdown (dropElement, dropButton) {
     dropElement.addEventListener("mouseover", () => {
     dropButton.style.visibility = "visible";
@@ -811,75 +813,30 @@ let counter = 0;
 class menu {
   static load(content) {
     //title header with icon
-    const menuIcon = document.createElement('img');
+    const menuIcon = document.createElement("img");
     menuIcon.src = _assets_icons_menu_png__WEBPACK_IMPORTED_MODULE_0__;
-    menuIcon.alt = 'menu-icon';
-    menuIcon.classList.add('icon', 'menu-icon');
+    menuIcon.alt = "menu-icon";
+    menuIcon.classList.add("icon", "menu-icon");
     const title = document.createElement("h1");
     title.innerHTML = "Menu! <br> 메뉴";
     title.setAttribute("id", "title");
-    title.style.textAlign = 'center';
-    const header = document.createElement('div');
+    title.style.textAlign = "center";
+    const header = document.createElement("div");
     header.appendChild(menuIcon);
     header.appendChild(title);
-    header.setAttribute('id', 'menu-header');
-
-    //first item
-    const items = ['Nome: Raspadinha Coreana', 'Hangul: 빙수', 'R$15,00']
-    const list = document.createElement('ul');
-    for(let i =0; i<items.length; i++){
-      const listItems = document.createElement('li');
-      listItems.innerHTML = items[i];
-      list.appendChild(listItems);
-    }
-    const itemDiv1 = document.createElement('div');
-    list.style.borderRight = '2px solid #fae6ef';
-    list.style.padding = '2em';
-    itemDiv1.appendChild(list);
-    const raspadinha = document.createElement('img');
-    raspadinha.src = _assets_raspadinha_png__WEBPACK_IMPORTED_MODULE_1__;
-    raspadinha.alt = '빙수';
-    raspadinha.classList.add('menu-img')
-    itemDiv1.appendChild(raspadinha);
-    itemDiv1.classList.add('text-div', 'text-div-grid-menu');
-
-    //Second Item
-    const itemDiv2 = document.createElement('div');
-    const donut = document.createElement('img');
-    donut.src = _assets_donut_jpg__WEBPACK_IMPORTED_MODULE_2__;
-    donut.alt = '꽈배기';
-    donut.classList.add('menu-img')
-    itemDiv2.appendChild(donut);
-    itemDiv2.classList.add('text-div', 'text-div-grid-menu');
-
-    const items2 = ['Nome: Donut de pão torcido', 'Hangul: 꽈배기', 'R$10,00']
-    const list2 = document.createElement('ul');
-    for(let i =0; i<items.length; i++){
-      const listItems = document.createElement('li');
-      listItems.innerHTML = items2[i];
-      list2.appendChild(listItems);
-    }
-    list2.style.borderLeft = '2px solid #fae6ef';
-    list2.style.padding = '2em';
-    itemDiv2.appendChild(list2);
-
-    const box = document.createElement("div");
-    box.setAttribute("id", "box");
-    box.appendChild(header);
-    box.appendChild(itemDiv1);
-    box.appendChild(itemDiv2);
-    content.appendChild(box);
+    header.setAttribute("id", "menu-header");
+    imageSlider.load(_assets_raspadinha_png__WEBPACK_IMPORTED_MODULE_1__, _assets_donut_jpg__WEBPACK_IMPORTED_MODULE_2__);
     //adding 1 to menu counter
-  menu.counter("add");
+    menu.counter("add");
   }
 
   static remove(content) {
     const box = document.getElementById("box");
     content.removeChild(box);
     const menuBtn = document.getElementById("menu");
-    const dropdown = document.getElementsByClassName("dropdown-button");
-    menuBtn.classList.remove('selected');
-    dropdown.classList.remove('selected');
+    const dropdownButtons = document.querySelector(".dropdown-button");
+    menuBtn.classList.remove("selected");
+    dropdownButtons.classList.remove("selected");
     menu.counter("remove");
   }
 
@@ -889,6 +846,38 @@ class menu {
   }
 }
 
+
+
+class imageSlider {
+  //loader
+  static load() {
+    //ID for each img of the slider
+    for (let i = 0; i < arguments.length; i++) {
+      arguments[i].setAttribute("id", `${i}`);
+    }
+
+    //Slider div
+    const slider = document.createElement('div');
+    slider.classList.add('slider-div');
+
+    //Arrows
+    //Backwards
+    const backwards = document.createElement('div');
+    backwards.classList.add('arrow');
+    backwards.setAttribute('id', 'back-arrow');
+    slider.appendChild(backwards);
+
+    //foward
+    const foward = document.createElement('div');
+    foward.classList.add('arrow');
+    foward.setAttribute('id', 'foward-arrow');
+    slider.appendChild(foward);
+
+    //slider append on contentbox
+    const content = document.getElementById("content");
+    content.appendChild(slider);
+  }
+}
 
 
 /***/ }),
@@ -1202,17 +1191,18 @@ homeBtn.addEventListener("click", () => {
 
 
 //Menu button eventListener
-const dropdown = document.getElementById("dropdown-buttons")
+const dropdown = document.getElementById("dropdown-buttons");
 const menuBtn = document.getElementById("menu");
-
-(0,_modules_dropdown__WEBPACK_IMPORTED_MODULE_7__["default"])(menuBtn, dropdown);
+const menuDrop = document.getElementById("menu-dropdown");
+const dropdownButtons = document.querySelector(".dropdown-button");
+(0,_modules_dropdown__WEBPACK_IMPORTED_MODULE_7__["default"])(menuDrop, dropdown);
 menuBtn.addEventListener("click", () => {
     if(_modules_menu__WEBPACK_IMPORTED_MODULE_1__.counter === 0) {
   if (_modules_home__WEBPACK_IMPORTED_MODULE_3__.counter != 0) _modules_home__WEBPACK_IMPORTED_MODULE_3__["default"].remove(content);
   if (_modules_contato__WEBPACK_IMPORTED_MODULE_2__.counter != 0) _modules_contato__WEBPACK_IMPORTED_MODULE_2__["default"].remove(content);
   _modules_menu__WEBPACK_IMPORTED_MODULE_1__["default"].load(content);
   menuBtn.classList.add("selected");
-  dropdown.classList.add("selected");
+  dropdownButtons.classList.add("selected");
     }
 });
 
