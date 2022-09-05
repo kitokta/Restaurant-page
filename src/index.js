@@ -1,3 +1,7 @@
+var ghpages = require('gh-pages');
+
+ghpages.publish('dist', function(err) {});
+
 import "./styles/main.css";
 import menu from "./modules/menu";
 import { counter as menuCounter } from "./modules/menu";
