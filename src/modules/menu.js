@@ -2,6 +2,7 @@ let counter = 0;
 import menuImg from "../assets/icons/menu.png";
 import raspadinhaImg from "../assets/raspadinha.png";
 import donutImg from "../assets/donut.jpg";
+import toastImg from "../assets/toast.jpg"
 import hoverDropdown from "./dropdown";
 
 export default class menu {
@@ -20,7 +21,7 @@ export default class menu {
     header.appendChild(title);
     header.setAttribute("id", "menu-header");
     content.appendChild(header);
-    imageSlider.load(raspadinhaImg, donutImg);
+    imageSlider.load(toastImg, raspadinhaImg, donutImg);
     //adding 1 to menu counter
     menu.counter("add");
   }
@@ -49,8 +50,8 @@ class imageSlider {
   //loader
   static load() {
     //ID for each img of the slider
+    const images = [];
     for (let i = 0; i < arguments.length; i++) {
-      const images = [];
       images[i] = document.createElement('img');
       images[i].src = arguments[i];
       images[i].setAttribute("id", `${i}`);
@@ -60,6 +61,8 @@ class imageSlider {
     const slider = document.createElement('div');
     slider.classList.add('slider-div');
     slider.setAttribute('id', 'slider');
+    slider.style.backgroundImage = `url('${images[0].src}')`;
+    let sliderCounter = 0;
 
     //Arrows
     //Backwards
@@ -84,6 +87,48 @@ class imageSlider {
 
     const arrowClass = document.querySelectorAll('.arrow');
     imageSlider.effects(slider, arrowClass);
+    imageSlider.arrowFunction(arrowClass, images, slider, sliderCounter);
+  }
+
+  static arrowFunction(arrows, images, slider, Counter) {
+    let sliderCounter = Counter;
+    for(const arrow of arrows)
+    arrow.addEventListener('click', () => {
+      if(arrow.id==='back-arrow') {
+        let findImg = false;
+        for(let i =0; findImg!=true; i++) {
+          if(sliderCounter === i) {
+            if((i-1) < 0) {
+            slider.style.backgroundImage = `url('${images[images.length-1].src}')`;
+            sliderCounter = images.length-1;
+            findImg = true;
+            }
+            else {
+            slider.style.backgroundImage = `url('${images[i-1].src}')`;
+            sliderCounter--;
+            findImg = true;
+          }
+          }
+        }
+      }
+      else if(arrow.id==='foward-arrow') {
+        let findImg = false;
+        for(let i =0; findImg!=true; i++) {
+          if(sliderCounter === i) {
+            if((i+1) > images.length-1) {
+            slider.style.backgroundImage = `url('${images[0].src}')`;
+            sliderCounter = 0;
+            findImg = true;
+            }
+            else {
+            slider.style.backgroundImage = `url('${images[i+1].src}')`;
+            sliderCounter++;
+            findImg = true;
+          }
+          }
+        }
+      }
+    })
   }
 
   static effects(slider, arrow) {

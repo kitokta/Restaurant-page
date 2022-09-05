@@ -227,8 +227,9 @@ width: 15em !important;
 }
 
 .slider-div {
-  background-color: #fae6ef;
-  background-image: url('../assets/toast.jpg');
+  background-color: #ea9ab6;
+  background-size: cover;
+  background-position: center;
   min-height: 20em;
   width: 55%;
   align-self: center;
