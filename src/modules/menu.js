@@ -82,10 +82,11 @@ class imageSlider {
     content.style.borderRadius = "0";
     content.appendChild(slider);
 
-    imageSlider.effects(slider);
+    const arrowClass = document.querySelectorAll('.arrow');
+    imageSlider.effects(slider, arrowClass);
   }
 
-  static effects(slider) {
-    hoverDropdown(slider,)
+  static effects(slider, arrow) {
+    hoverDropdown(slider, arrow);
   }
 }
