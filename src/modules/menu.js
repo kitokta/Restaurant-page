@@ -92,7 +92,7 @@ class imageSlider {
 
   static arrowFunction(arrows, images, slider, Counter) {
     let sliderCounter = Counter;
-    for(const arrow of arrows)
+    for(const arrow of arrows) {
     arrow.addEventListener('click', () => {
       if(arrow.id==='back-arrow') {
         let findImg = false;
@@ -128,7 +128,7 @@ class imageSlider {
           }
         }
       }
-    })
+    })}
   }
 
   static effects(slider, arrow) {
